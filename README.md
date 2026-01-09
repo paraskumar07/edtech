@@ -1,85 +1,69 @@
-🎓 Edemy – Learning Management System (LMS)
+# 🎓 Edemy – Learning Management System (LMS)
 
 Edemy is a modern, full-stack Learning Management System (LMS) designed to provide seamless online education for students and educators. The platform supports course creation, enrollment, secure payments, video-based learning, and real-time progress tracking.
 
-🚀 Features
+---
 
-🔐 User Authentication & Authorization
+## 🚀 Features
 
-Secure signup/login using JWT-based authentication
+### 🔐 User Authentication & Authorization
+- Secure signup/login using JWT-based authentication
+- Role-based access for students and instructors
 
-Role-based access for students and instructors
+### 📚 Course Management
+- Instructors can create, update, and manage courses
+- Students can browse and enroll in available courses
 
-📚 Course Management
+### 🎥 Video Learning
+- Embedded video streaming for course content
+- Structured lessons for a smooth learning experience
 
-Instructors can create, update, and manage courses
+### 📊 Progress Tracking
+- Real-time tracking of course completion
+- Personalized learning progress for each student
 
-Students can browse and enroll in available courses
+### 💳 Payment Integration
+- Secure and seamless payments using Razorpay
+- Paid course enrollment with transaction verification
 
-🎥 Video Learning
+### 📧 Email Notifications
+- Transactional emails using Nodemailer
+- Signup confirmations and course enrollment alerts
 
-Embedded video streaming for course content
+---
 
-Structured lessons for smooth learning experience
+## 🛠️ Tech Stack
 
-📊 Progress Tracking
+### Frontend
+- React.js
+- JavaScript
+- HTML5 & CSS3
 
-Real-time tracking of course completion
+### Backend
+- Node.js
+- Express.js
 
-Personalized learning progress for each student
+### Database
+- MongoDB
 
-💳 Payment Integration
+### Other Integrations
+- Razorpay – Payment Gateway
+- Nodemailer – Email Service
+- JWT – Authentication & Security
 
-Secure and seamless payments using Razorpay
+---
 
-Paid course enrollment with transaction verification
+## ⚙️ Installation & Setup
 
-📧 Email Notifications
+### Prerequisites
+- Node.js
+- MongoDB
+- Razorpay account
+- Email service credentials (for Nodemailer)
 
-Transactional emails using Nodemailer
+### Steps
 
-Signup confirmations and course enrollment alerts
-
-🛠️ Tech Stack
-Frontend
-
-React.js
-
-JavaScript
-
-HTML5 & CSS3
-
-Backend
-
-Node.js
-
-Express.js
-
-Database
-
-MongoDB
-
-Other Integrations
-
-Razorpay – Payment gateway
-
-Nodemailer – Email service
-
-JWT – Authentication & security
-
-
-⚙️ Installation & Setup
-Prerequisites
-
-Node.js
-
-MongoDB
-
-Razorpay account
-
-Email service credentials (for Nodemailer)
-
-Steps
+```bash
 # Clone the repository
 git clone https://github.com/paraskumar07/edtech
 
